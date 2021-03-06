@@ -22,15 +22,17 @@ strip(): removing whitespaces
 Note: remember to add the '.' to include these strings
 
 ## Files
-- mode: r = read, w = write 
+- mode: r = read, w = write
 - open(filename, mode) </br>
 *Note: mode is optional*
 - newline: \n </br>
 *Note: '\n' is one character*
 
 ## Files as a Sequence
-Counting lines: 
-```python 
+Counting lines:
+```python
 for line in filename:
     count = count+1
 ```
+*Note: Markdown all in one extension for nice content page*
+
